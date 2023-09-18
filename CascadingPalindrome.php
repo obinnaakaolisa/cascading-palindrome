@@ -2,6 +2,12 @@
 
 class CascadingPalindrome {
 
+    /**
+     * @author <Obinna Akaolisa>
+     * @email <akaolisaobinna@gmail.com>
+     * @ZuriStundetID <ZUR000241V1I>
+     */
+
     private static function isValidString(string $input): bool
     {
         // checks if passed parameter is a valid string
@@ -44,7 +50,7 @@ class CascadingPalindrome {
 
         // loop through each parts of the input string
         foreach ($parts as $part) {
-            
+
             // clean each part
             $cleanedPart = self::cleanPart($part);
 
